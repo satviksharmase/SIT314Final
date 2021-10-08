@@ -12,7 +12,6 @@ var plotly=require('plotly')("sharmasat","f36EQa6zvyIpMmiQZ6Vj")
 time=Date.now()
 
 reading=Math.random()*100;
-
 if(reading<20){
     client.on('connect',()=>{
         console.log('mqtt connected');
